@@ -1,0 +1,64 @@
+.background {
+    width: 500px;
+    height: 300px;
+    margin:40px;
+    display: inline-block;
+    background-size: cover; 
+    background-position: center;
+    border-radius: 15px;
+ }
+ .background:hover{
+      transform: scale(1.1);
+      transition: all 0.3s ease;
+ }
+ .container,.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ h1{
+     font-size: 5rem;
+     font-style: italic;
+     text-align: center;
+    color: bisque;
+ }
+ body{
+    
+    background-image: url(about-page-m\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.8); 
+    background-blend-mode: darken; 
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+ }
+ .head h1,h2:hover{
+    cursor: pointer;
+ }
+ .card{
+   border-radius: 15px;
+ }
+ .asam,.sam{
+    background-color: aliceblue;
+    color: black;
+    margin: 20px;
+    font-size: 2.5rem;
+     font-style: italic;
+     text-align: center;
+     padding: 10px;
+     border-radius: 30PX;
+
+}
+.back button{
+     color: black;
+   background-color: aliceblue;
+     border-radius: 8px;
+     font-size: 1.5rem;
+     padding: 10px;
+     font-weight: 800;
+     margin-left: 20px;
+    
+  }
